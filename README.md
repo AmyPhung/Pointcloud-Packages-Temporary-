@@ -1,4 +1,4 @@
-# Pointcloud-Packages-Temporary-
+# tractor_sim_packages
 Temporary place to keep packages that work together to generate pointclouds
 
 # Dependencies
@@ -6,7 +6,7 @@ tractor_sim
 gravl 
 
 # Setup
-Put all packages in /src folder in catkin workspace then use catkin_make
+
 
 # Usage
 + roslaunch tractor_sim_gazebo tractor_sim.launch
