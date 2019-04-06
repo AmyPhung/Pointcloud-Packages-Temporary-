@@ -2,11 +2,10 @@
 <package format="2">
   <name>sim_localization</name>
   <version>0.0.0</version>
-  <description>Robot pose estimation package for indoor use
-  taking into account apriltag pose estimation and imu data.</description>
-  <maintainer email="Estill@todo.todo">Nathan Estill</maintainer>
+  <description>Robot pose estimation package for simulation use</description>
+  <maintainer email="aphung@todo.todo">Amy Phung</maintainer>
   <license>MIT</license>
-  <author >Kawin Nikomborirak</author>
+  <author >Amy Phung</author>
 
   <buildtool_depend>catkin</buildtool_depend>
   <build_depend>tf2_ros</build_depend>
