@@ -18,7 +18,7 @@ header.frame_id = 'odom'
 model = GetModelStateRequest()
 model.model_name = 'tractor_sim'
 
-r = rospy.Rate(10)
+r = rospy.Rate(50)
 
 while not rospy.is_shutdown():
     result = get_model_srv(model)
